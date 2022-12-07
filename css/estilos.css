@@ -159,21 +159,21 @@ body{
     padding: 10px;
 }
 .imagenSec{
-    background-image: url(/imagenes/civil.jpg);
+    background-image: url(../imagenes/civil.jpg);
     height: 100%;
     padding: 10px;
     background-size: cover;
     background-repeat: no-repeat;
 }
 .imagenSec2{
-    background-image: url(/imagenes/empresa.jpg);
+    background-image: url(../imagenes/empresa.jpg);
     height: 100%;
     padding: 10px;
     background-size: cover;
     background-repeat: no-repeat;
 }
 .imagenSec3{
-    background-image: url(/imagenes/otrosS.jpg);
+    background-image: url(../imagenes/otrosS.jpg);
     height: 100%;
     padding: 10px;
     background-size: cover;
