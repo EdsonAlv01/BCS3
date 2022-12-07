@@ -1,0 +1,436 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: rgb(192, 122, 43);
+    background: radial-gradient(circle, rgb(192,122,43) 0%, rgb(43, 24, 0) 100%);    
+}
+.imgCab{
+    width: 100%;
+    height: 300px;
+    padding-top: 70px;
+}
+.masthead {
+    height: 50vh;
+    min-height: 200px;
+    background-image: url('../imagenes/bannerFondo.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+    margin-top: 10px;
+}
+.ServT{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 3px 20px rgb(0, 0, 0);
+    font-size: 120px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 3px;
+    padding: 20px;
+    margin: 0;
+    background-color: rgb(192, 122, 43);;
+}
+.contenedorE{
+    margin-top: 60px;
+    text-align: right;
+    background-color: rgb(63, 63, 63);
+}
+.estilob{
+    background-color: rgba(0, 0, 0, 0);
+    border-color: transparent;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    padding: 10px;
+}
+.estiloc{
+    text-align: center;
+    background-color: transparent;
+    border-color: transparent;
+    font-weight: bold;
+    padding: 10px;
+    margin: 0;
+    font-size: 12px;
+    color: white;
+}
+#hoverI{
+    margin-top: 7px;
+    border-radius: 25px;
+    margin-left: 5px;
+}
+#hoverI:hover{
+    color: rgb(0, 0, 0);
+    /* background-color: rgb(192, 122, 43); */
+    border-radius: 15px;   
+    border-bottom: 5px;
+    transition: all .5s ease-out;
+}
+#inicioT{
+    padding: 0px;
+    font-size: 6vh;
+    text-shadow: 7px 5px 0px rgb(0, 0, 0);
+    text-align: left;
+    margin: 10px;
+}
+.caja-texto{
+    width: 100%;
+}
+.carrusel{
+    height: 41rem;
+    margin: auto;
+    background-color: rgb(33, 33, 33);
+    box-shadow:0 0 20px black;
+}
+.carrusel-In{
+    height: 40rem;
+    padding: 1rem;
+}
+.carrusel-itemIn{
+    height: 40rem;
+    
+}
+.carrusel-Exp{
+    height: 40rem;
+    padding: 1rem;
+}
+.carrusel-itemExp{
+    height: 40rem;
+}
+#carruselExp{
+    margin-bottom: 50px;
+}
+
+
+.h2Text{
+    color: white;
+    margin: 20px;
+    padding: 10px;    
+    text-align: center;
+    transition: all .5s ease-in;
+}
+#h2T{
+    font-size: 60px;
+    padding: 20px;
+    background-color: rgb(33, 33, 33);
+}
+
+/* Columnas Inicio */
+
+.secHist{
+    padding: 30px;
+    text-align: justify;
+}
+.secHist p{
+    padding: 10px;
+}
+.colInicio{
+    padding: 20px;
+    box-shadow: 0 0 10px black;
+}
+.colInicio p{
+    color: white;
+}
+.colInicio a{
+    text-decoration: none;
+    background-color: rgb(33, 33, 33);
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+}
+#aServ h3:hover{
+    color: rgb(192, 122, 43);
+}
+.lm{
+    display: flex;
+}
+.cenText{
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.secServicio{
+    padding: 30px;
+    text-align: justify;
+}
+.secServicio p{
+    padding: 10px;
+}
+.imagenSec{
+    background-image: url(/imagenes/civil.jpg);
+    height: 100%;
+    padding: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.imagenSec2{
+    background-image: url(/imagenes/empresa.jpg);
+    height: 100%;
+    padding: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.imagenSec3{
+    background-image: url(/imagenes/otrosS.jpg);
+    height: 100%;
+    padding: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.colInicio h3{
+    color: white;
+}
+.secServ{
+    color: white;
+}
+#aServ{
+    background-color: transparent;
+    padding: 0;
+    border-radius: 0px;
+}
+#aServ a{
+    padding: 0;
+    margin: 0;
+    border-radius: 0px;
+}
+.secExp{
+    padding: 30px;
+}
+.secVyP{
+    padding: 30px;
+}
+.secVyP h3{
+    color: white;
+    text-align: justify;
+}
+
+.separador{
+    margin: auto;
+}
+.caja-Historia{
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+.cajas{
+    width: 45%;
+    display: inline-block;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+.btnContacto{
+    margin: auto;
+    text-align: center;
+    margin: 50px;
+}
+.btnContacto button{
+    width: 30%;
+    background-color: rgb(33, 33, 33);
+    font-weight: bold;
+    border-radius: 25px;
+    border-color: rgb(33, 33, 33);
+    box-shadow:5px 5px 5px rgb(0, 0, 0);
+}
+.btnContacto button:hover{
+    background-color: rgb(192, 122, 43);
+    border-color: rgb(192, 122, 43);
+}
+.servicios{
+    margin: 0 15% 30px 15%;
+}
+.parrafo{
+    text-align:justify;
+    color: white;
+    background-color: rgba(49, 49, 49, 0.733);
+    margin: 20px;
+    box-shadow:5px 5px 5px rgb(0, 0, 0);
+    padding: 130px;
+    border-radius: 15px;
+}
+.pinfo{
+    display: inline;
+    margin: auto;
+    color: rgb(241, 241, 255);
+    font-weight: bold;
+    margin: 20px;
+    background-color: rgba(180, 180, 180, 0.795);
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow:5px 5px 5px rgb(0, 0, 0);
+}
+#historiaC{
+    margin-bottom: 150px;
+}
+.vyp{
+    margin: 0 15% 30px 15%;
+}
+
+.cajasE{
+    color: white;
+    font-weight: bold;
+}
+#imgE{
+    width: 800px;
+}
+
+hr{
+    box-shadow: 0 0 10px black;
+}
+.secCont{
+    background-color: rgb(33, 33, 33);
+    margin-bottom: 40px;
+    padding: 20px;
+    box-shadow: 0 0 10px black;
+}
+.contContacto{
+    color: white;
+}
+.colContacto{
+    padding: 20px;
+}
+.cajaContacto{
+    text-align: center;
+    box-shadow: 0 0 10px black;
+    padding: 10px;
+}
+.formTop{
+    text-align: center;
+    padding-top: 30px;
+}
+.formTop h3{
+    text-align: center;
+    font-weight: bold;
+}
+.formTop h6{
+    text-align: center;
+    font-weight: inherit;
+}
+.formCont button{
+    margin: auto;
+    width: 60%;
+    display: block;
+    text-align: center;
+}
+.form-group{
+    display: inline;
+   
+    padding: 5%;
+}
+.contact-form input{
+    width: 60%;
+    height: 50px;
+    margin: auto;
+    color: black;
+}
+.contact-form textarea{
+    width: 60%;
+    margin: auto;
+}
+.contact-form input::placeholder{
+    color: black;
+}
+.contact-form textarea::placeholder{
+    color: black;
+}
+/*Main*/
+
+/*Pie de Pagina*/
+
+#piePagina{
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(33, 33, 33);
+    font-size: 20px;
+    font-variant: small-caps;
+    color: white;
+    letter-spacing: 2px;
+}
+
+/*Pie de Pagina*/
+
+@media (max-width: 575px) {
+    .ServT{
+        font-size: 50px;
+        transition: all .5s ease-in;
+    }
+    #h2T{
+        font-size: 40px;
+    }
+    .carrusel{
+        height: 31rem;
+        transition: all .5s ease-in;
+    }
+    .carrusel-In{
+        height: 30rem;
+        transition: all .5s ease-in;
+    }
+    .carrusel-itemIn{
+        height: 30rem;
+        transition: all .5s ease-in;
+    }
+    .carrusel-Exp{
+        height: 30rem;
+        transition: all .5s ease-in;
+    }
+    .carrusel-itemExp{
+        height: 30rem;
+        transition: all .5s ease-in;
+    }
+    .imagenSec{
+        display: none;
+    }
+    .imagenSec2{
+        display: none;
+    }
+    .imagenSec3{
+        display: none;
+    }
+    .formTop{
+        text-align: center;
+        padding-top: 80px;
+    }
+    .formTop h3{
+        font-size: 20px;
+    }
+    .formTop h6{
+        font-size: 12px;
+    }
+    .formCont button{
+        margin: auto;
+        width: 80%;
+        display: block;
+        text-align: center;
+        margin-bottom: 10%;
+    }
+    .formCont input{
+        width: 80%;
+    }
+    .formCont textarea{
+        width: 80%;
+    }
+    input{
+        height: 32px;
+    }
+    .contact-form input::placeholder{
+        font-size: 14px;
+    }
+    .contact-form textarea::placeholder{
+        font-size: 14px;
+    }
+    .contenedorE{
+        text-align: center;
+    }
+    #hoverI{
+        width: auto;
+        padding: 5px 0 5px 0;
+        font-size: 12px;
+    }
+    .btnContacto button{
+        font-size: 14px;
+        width: 40%;
+        transition: all .5s ease-in;
+    }
+}
